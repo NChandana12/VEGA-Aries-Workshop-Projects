@@ -63,8 +63,15 @@ An access control system based on RFID tag verification.
 3. Power on the Aries board and observe behavior as per logic
 
 ---
+##👥 TEAM
+N. ChandanA – 23BEC1219 https://github.com/NChandana12
+
+Harini Kamatchi Velrajan – 23BEC1136 
+
+---
 
 ## 🙌 Acknowledgements  
+
 Big thanks to our amazing workshop instructors — 
 **Dr. Vydeki D** & **Dr. Jagannath M** 
 for their incredible guidance, patience, and hands-on mentorship throughout the journey. Your support helped us bridge the gap between concepts and real-world embedded systems!
