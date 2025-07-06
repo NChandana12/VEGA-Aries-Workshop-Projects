@@ -1,63 +1,70 @@
-🚀 Embedded Projects on VEGA Aries V3
-Hands-On Workshop | VIT Chennai
-🗓️ Feb 22 – Apr 14, 2025
+# 🛰️ Hands-On Workshop: VEGA Processors & Ecosystem  
+**📍 VIT Chennai | 🗓️ Feb 22 – Apr 14, 2025**
 
-🧠 Overview
-This repository showcases three key embedded projects developed as part of a hands-on workshop on VEGA Processors and Ecosystem, conducted at VIT Chennai. All implementations are built on the VEGA Aries V3 Board, exploring real-time sensor interfacing, decision-based automation, and access control systems.
+---
 
-📦 Project List
-1️⃣ F1 Reaction Time Tester – Reflex Challenge
-A fast-paced game inspired by Formula 1 drivers’ reflexes:
+## 📚 Overview  
+This repository features 3 interactive embedded systems projects completed during the hands-on workshop on **VEGA Processors and Ecosystem**, hosted by VIT Chennai. All activities were developed using the **VEGA Aries Development Board** and involved real-time sensor integration, reaction logic, and authentication systems.
 
-🔴 Red LED + Buzzer cue → user taps touch sensor as fast as possible
+---
 
-⏱️ Calculates and displays reaction time via Serial Monitor
+## 🚀 Projects Included
 
-🏆 Tracks best time, average time, and test count
+### 🟢 1. F1 Lights Out Reaction Tester  
+A reaction-based game designed to test your reflexes—just like an F1 driver!  
+**How it works:**  
+- Wait for the red light + buzzer.  
+- Tap the touch sensor as quickly as possible.  
+- Reaction time gets displayed on Serial Monitor.  
+- Your best time gets tracked!
 
-👉 Try to beat the average F1 driver’s reaction speed: 0.2–0.3 sec!
+🎯 *Tech used:* Touch Sensor, Buzzer, Red/Green LEDs, Serial Feedback  
+🎮 *Concept:* Human Reaction Time Testing  
 
-2️⃣ IR Proximity Alert System
-An automated system with instant visual and audio cues:
+---
 
-🟩 Green LED (safe) when no object is nearby
+### 🔴 2. IR Proximity Alert System  
+A simple and effective safety/alert system.  
+**Features:**  
+- Detects nearby objects using an IR sensor.  
+- Turns on Red LED + Buzzer when object is close.  
+- Green LED when no object is detected.  
+- Serial Monitor logs object detection status.
 
-🟥 Red LED + buzzer alert when object is detected
+🎯 *Tech used:* IR Sensor, Buzzer, RYG LEDs  
+🛡️ *Concept:* Proximity Detection + Alerts  
 
-🛠️ Useful for obstacle detection, safety systems, etc.
+---
 
-3️⃣ RFID-Based Access Control with RYG LEDs
-A simple access system using an RFID module and RYG LED logic:
+### 🟡 3. RFID Access System with RYG LED Logic  
+An access control system based on RFID tag verification.  
+**Flow:**  
+1. Reads RFID card UID  
+2. ✅ Match → Green LED = Access Granted  
+3. ❌ Mismatch → Yellow LED = Access Denied  
+4. 🚫 3 wrong attempts → Red LED = Access Blocked  
 
-✅ Green LED → Authorized UID → "Access Granted"
+🎯 *Tech used:* RFID Module, R/Y/G LEDs, GPIO Logic  
+🔐 *Concept:* Authentication & Security Logic  
 
-⚠️ Yellow LED → Wrong UID → "Access Denied"
+---
 
-⛔ Red LED → 3 wrong attempts → System blocks access
+## ⚙️ How to Run
+1. Open the code folder of the desired project.
+2. Connect components based on the pin map in the comments.
+3. Flash the code using the Arduino IDE or VEGA environment.
+4. Watch the output on hardware + Serial Monitor.
 
-💡 A great foundation for smart door locks or attendance systems.
+---
 
-🔧 Setup Instructions
-Refer to each project folder for:
+## 🙌 Acknowledgements  
+Big thanks to our amazing workshop coordinators —  
+**Dr. Vydeki D** & **Dr. Jagannath M** — for guiding us through the world of VEGA processors and embedded systems.  
+Shoutout to our peers too — the energy and learning were next level 🚀💯
 
-📄 Source Code
+---
 
-🔌 Pin Connection Details
+## 📜 License  
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-🖼️ Circuit Diagrams / Output Images
-
-Upload code via Arduino IDE (or compatible environment)
-
-Power on the Aries board and observe behavior as per logic
-
-🙌 Credits
-Instructors:
-
-Dr. Vydeki D
-
-Dr. Jagannath M
-
-Special thanks to VIT Chennai for conducting this workshop and helping us explore real-world embedded applications from scratch.
-
-📜 License
-This repository is released under the MIT License.
+---
