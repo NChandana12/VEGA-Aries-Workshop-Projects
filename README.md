@@ -24,7 +24,7 @@ A reaction-based game designed to test your reflexes—just like an F1 driver!
 
 ---
 
-### 🔴 2. IR Proximity Alert System  
+### 2️⃣ IR Proximity Alert System  
 A simple and effective safety/alert system.  
 **Features:**  
 - Detects nearby objects using an IR sensor.  
@@ -38,7 +38,7 @@ A simple and effective safety/alert system.
 
 ---
 
-### 🟡 3. RFID Access System with RYG LED Logic  
+### 3️⃣ RFID Access System with RYG LED Logic  
 An access control system based on RFID tag verification.  
 **Flow:**  
 1. Reads RFID card UID  
