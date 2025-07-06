@@ -63,11 +63,11 @@ An access control system based on RFID tag verification.
 3. Power on the Aries board and observe behavior as per logic
 
 ---
-##👥 TEAM
+## 👥 TEAM
 
-1.N. Chandana – 23BEC1219 - GitHub profile: [NChandana12](https://github.com/NChandana12)
+N. Chandana – 23BEC1219 - GitHub profile: [NChandana12](https://github.com/NChandana12)
 
-2.Harini Kamatchi Velrajan – 23BEC1136 
+Harini Kamatchi Velrajan – 23BEC1136 - GitHub profile: [HariniKamatchi](https://github.com/HariniKamatchi)
 
 ---
 
