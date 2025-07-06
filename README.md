@@ -64,9 +64,10 @@ An access control system based on RFID tag verification.
 
 ---
 ##👥 TEAM
-N. ChandanA – 23BEC1219 https://github.com/NChandana12
 
-Harini Kamatchi Velrajan – 23BEC1136 
+1.N. Chandana – 23BEC1219 - GitHub profile: [NChandana12](https://github.com/NChandana12)
+
+2.Harini Kamatchi Velrajan – 23BEC1136 
 
 ---
 
