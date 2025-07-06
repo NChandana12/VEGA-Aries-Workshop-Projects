@@ -10,13 +10,14 @@ This repository features 3 interactive embedded systems projects completed durin
 
 ## 🚀 Projects Included
 
-### 🟢 1. F1 Lights Out Reaction Tester  
+### 1️⃣ F1 Lights Out Reaction Tester – Reflex Challenge 
 A reaction-based game designed to test your reflexes—just like an F1 driver!  
 **How it works:**  
-- Wait for the red light + buzzer.  
-- Tap the touch sensor as quickly as possible.  
-- Reaction time gets displayed on Serial Monitor.  
-- Your best time gets tracked!
+-🔴 Red LED + Buzzer cue → user taps touch sensor as fast as possible
+-⏱️ Calculates and displays reaction time via Serial Monitor
+-🏆 Tracks best time, average time, and test count
+
+👉 Try to beat the average F1 driver’s reaction speed: 0.2–0.3 sec!
 
 🎯 *Tech used:* Touch Sensor, Buzzer, Red/Green LEDs, Serial Feedback  
 🎮 *Concept:* Human Reaction Time Testing  
@@ -27,8 +28,9 @@ A reaction-based game designed to test your reflexes—just like an F1 driver!
 A simple and effective safety/alert system.  
 **Features:**  
 - Detects nearby objects using an IR sensor.  
-- Turns on Red LED + Buzzer when object is close.  
-- Green LED when no object is detected.  
+-🟩 Green LED (safe) when no object is nearby
+-🟥 Red LED + buzzer alert when object is detected
+-🛠️ Useful for obstacle detection, safety systems, etc.  
 - Serial Monitor logs object detection status.
 
 🎯 *Tech used:* IR Sensor, Buzzer, RYG LEDs  
@@ -49,18 +51,26 @@ An access control system based on RFID tag verification.
 
 ---
 
-## ⚙️ How to Run
-1. Open the code folder of the desired project.
-2. Connect components based on the pin map in the comments.
-3. Flash the code using the Arduino IDE or VEGA environment.
-4. Watch the output on hardware + Serial Monitor.
+## 🔧 Setup Instructions
+
+1.Refer to each project folder for:
+-📄 Source Code
+-🔌 Pin Connection Details
+-🖼️ Circuit Diagrams / Output Images
+2.Upload code via Arduino IDE (or compatible environment)
+3. Power on the Aries board and observe behavior as per logic
 
 ---
 
 ## 🙌 Acknowledgements  
-Big thanks to our amazing workshop coordinators —  
-**Dr. Vydeki D** & **Dr. Jagannath M** — for guiding us through the world of VEGA processors and embedded systems.  
-Shoutout to our peers too — the energy and learning were next level 🚀💯
+Big thanks to our amazing workshop instructors — 
+**Dr. Vydeki D** & **Dr. Jagannath M** 
+for guiding us through the world of VEGA processors and embedded systems.
+
+Special thanks to VIT Chennai for conducting this workshop and helping us explore real-world embedded applications from scratch.
+
+Shoutout to our peers too🚀💯
+
 
 ---
 
