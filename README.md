@@ -57,7 +57,9 @@ An access control system based on RFID tag verification.
 -📄 Source Code
 -🔌 Pin Connection Details
 -🖼️ Circuit Diagrams / Output Images
+
 2.Upload code via Arduino IDE (or compatible environment)
+
 3. Power on the Aries board and observe behavior as per logic
 
 ---
@@ -65,12 +67,11 @@ An access control system based on RFID tag verification.
 ## 🙌 Acknowledgements  
 Big thanks to our amazing workshop instructors — 
 **Dr. Vydeki D** & **Dr. Jagannath M** 
-for guiding us through the world of VEGA processors and embedded systems.
+for their incredible guidance, patience, and hands-on mentorship throughout the journey. Your support helped us bridge the gap between concepts and real-world embedded systems!
 
-Special thanks to VIT Chennai for conducting this workshop and helping us explore real-world embedded applications from scratch.
+Special thanks to VIT Chennai for organizing such an engaging and future-focused workshop, giving us the platform to explore the VEGA processor ecosystem from the ground up — code, debug, and build 🚀
 
-Shoutout to our peers too🚀💯
-
+Shoutout to all the participants and peers who made this experience even more collaborative, competitive, and fun! From burning LEDs to buzzing buzzers — we enjoyed every moment!💯
 
 ---
 
